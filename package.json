@@ -1,0 +1,10 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "mongodb": "^2.2.34",
+    "mysql": "^2.15.0"
+  }
+}
