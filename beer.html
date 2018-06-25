@@ -1,0 +1,38 @@
+<div ng-controller="BeerController">
+    <p> insert beer</p>
+   userid <input type="text" ng-model="b.userid">
+    <form ng-submit="AddBeer();">
+        <table border="1" align="center">
+            <tr>
+                <td>beerid</td>
+                <td>
+                    <input type="text" ng-model="b.beerid">
+                </td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>
+                    <input type="text" ng-model="b.name1">
+                </td>
+            </tr>
+            <tr>
+                <td>cost</td>
+                <td>
+                    <input type="text" ng-model="b.cost">
+                </td>
+            </tr>
+            <tr>
+                <td>quantity</td>
+                <td>
+                    <input type="text" ng-model="b.quantity">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
